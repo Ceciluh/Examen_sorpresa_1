@@ -1,4 +1,4 @@
-#1. Cinemática Directa
+# 1. Cinemática Directa
 ¿Qué variables articulares utiliza el modelo?
 Usa ángulos en radianes: gamma (base), alpha (hombro) y beta (codo).
 
@@ -8,7 +8,7 @@ Traslaciones en ejes locales y rotaciones (rotateX, rotateY) mediante una estruc
 ¿Cómo se valida la posición calculada?
 Mediante la coincidencia visual entre el extremo del shape(end) y los puntos almacenados en trail.
 
-#3. Cinemática Inversa
+# 3. Cinemática Inversa
 ¿Qué método se utilizó para resolverla?
 Método geométrico basado en el Teorema del Coseno y funciones trigonométricas (atan2, acos).
 
@@ -18,7 +18,7 @@ Se usa constrain() para limitar la extensión del brazo y evitar valores imposib
 ¿Qué limitaciones articulares se consideraron?
 La longitud fija de los eslabones F=50 y T=70 y el radio de alcance máximo.
 
-#4. Planificación de Trayectorias
+# 4. Planificación de Trayectorias
 ¿Cómo se parametriza la trayectoria en la esfera?
 Se mapean coordenadas cartesianas a esféricas (latitud/longitud) con un radio fijo R.
 
