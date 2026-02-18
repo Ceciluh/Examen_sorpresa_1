@@ -3,7 +3,7 @@
 Usa ángulos en radianes: gamma (base), alpha (hombro) y beta (codo).
 
 ¿Qué transformaciones homogéneas se emplean?
-Traslaciones en ejes locales y rotaciones (rotateX, rotateY) mediante una estructura de matriz anidada.
+Traslaciones en ejes locales y rotaciones  mediante una estructura de matriz anidada.
 
 ¿Cómo se valida la posición calculada?
 Mediante la coincidencia visual entre el extremo del shape(end) y los puntos almacenados en trail.
@@ -27,3 +27,5 @@ Interpolación lineal simple (lerp) entre puntos de control definidos por segmen
 
 ¿Cómo se garantiza continuidad en posición y velocidad?
 Haciendo coincidir el punto final del segmento n con el inicial del n+1 y usando un speed constante.
+
+![WhatsApp Image 2026-02-18 at 1 56 12 PM](https://github.com/user-attachments/assets/5a8ca245-fa5b-4da9-a373-fb05733dc05c)
